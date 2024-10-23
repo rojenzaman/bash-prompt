@@ -19,7 +19,7 @@ c_magenta="\001$(tput setaf 5)\002"
   c_white="\001$(tput setaf 7)\002"
  c_bblack="\001$(tput setaf 8)\002"
  c_bwhite="\001$(tput setaf 15)\002"
-  g_input="\001$(tput bold; tput setaf 15)\002"
+  g_input="$c_bwhite"
 
 # Dark theme where prompt fades to background in favor of the
 # actual command executed and its output.
